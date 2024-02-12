@@ -14,7 +14,7 @@ timezone: Asia/Hong_Kong
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: hikari # the main title
+title: Yaotian WEI # the main title
 
 tagline: hikari's page # it will display as the sub-title
 
@@ -38,11 +38,11 @@ social:
   email: yaotianwei03@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/ytwei3 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/yaotianwei
 
 google_site_verification: # fill in to your verification string
 
