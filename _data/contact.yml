@@ -10,13 +10,19 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/yaotianwei/'                  # Fill with your Linkedin homepage
 
+- type: cv
+  icon: "fas fa-file-alt"
+  noblank: true
+  url: "https://yaotianwei.github.io/cv/"
+
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
+
 
 # Uncomment and complete the url below to enable more contact options
 #
