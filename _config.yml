@@ -16,7 +16,7 @@ timezone: Asia/Hong_Kong
 
 title: Yaotian WEI # the main title
 
-tagline: Life in Nyamazon # it will display as the sub-title
+tagline: # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Yaotian WEI's personal blog, sharing my thoughts and experiences in life, work and study.

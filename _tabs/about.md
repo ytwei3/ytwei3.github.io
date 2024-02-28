@@ -7,10 +7,21 @@ order: 4
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
-Hello! I'm Yaotian, currently pursuing my bachelor's degree at [City University of Hong Kong](https://www.cityu.edu.hk/). I am a Finance student with one year of experience in research and development at [Huawei](https://www.huawei.com/en/), as well as trading experience in the [Rotman International Trading Competition](https://inside.rotman.utoronto.ca/financelab/competition/ritc/) (RITC).
+---
 
-You can call me Walter, but I personally prefer to be addressed by my Chinese name, "Yaotian," for those who are familiar with Chinese.
+### **Hello, I'm Yaotian (Walter)!**
 
-Looking ahead, I am always on the lookout for opportunities to create impactful and exciting projects that can make a difference in people's lives.
+You can find me with:
+
+- [Linkedin](https://www.linkedin.com/in/yaotianwei/)
+- [Github](https://github.com/ytwei3)
+- [CV]()
+- Email: `yaotianwei03 at gmail dot com`
+
+I'm currently pursuing my Finance bachelor's degree @ [CityU](https://www.cityu.edu.hk/). Meanwhile, I have one year of internship experience in research and development @ [Huawei](https://www.huawei.com/en/), as well as real-time trading experience @ [Rotman International Trading Competition (RITC)](https://inside.rotman.utoronto.ca/financelab/competition/ritc/).
+
+You can call me Walter, but I personally always prefer to be addressed by my Chinese name, "Yaotian," for those who are familiar with Chinese.
+
+For the future, I am constantly seeking opportunities to build things that excite me and impact people.
 
 *Last updated on Feb 28, 2024.*
