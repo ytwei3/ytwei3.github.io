@@ -15,7 +15,7 @@ You can find me with:
 
 - [Linkedin](https://www.linkedin.com/in/yaotianwei/)
 - [Github](https://github.com/ytwei3)
-- [CV]()
+- [CV](https://ytwei3.github.io/cv/yaotian_wei_resume.pdf)
 - Email: `yaotianwei03 at gmail dot com`
 
 I'm currently pursuing my Finance bachelor's degree @ [CityU](https://www.cityu.edu.hk/). Meanwhile, I have one year of internship experience in research and development @ [Huawei](https://www.huawei.com/en/), as well as real-time trading experience @ [Rotman International Trading Competition (RITC)](https://inside.rotman.utoronto.ca/financelab/competition/ritc/).

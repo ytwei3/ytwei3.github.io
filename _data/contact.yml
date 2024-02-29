@@ -10,10 +10,10 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/yaotianwei/'                  # Fill with your Linkedin homepage
 
-- type: cv
-  icon: "fas fa-file-alt"
-  noblank: true
-  url: "https://yaotianwei.github.io/cv/"
+# - type: cv
+#   icon: "fas fa-file-alt"
+#   noblank: true
+#   url: "https://ytwei3.github.io/cv/yaotian_wei_resume.pdf"
 
 - type: email
   icon: "fas fa-envelope"
