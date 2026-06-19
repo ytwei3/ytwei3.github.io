@@ -5,7 +5,7 @@ export default defineAstroPaperConfig({
     url: "https://ytwei3.github.io/",
     title: "Yaotian",
     description:
-      "Yaotian's personal blog, sharing my thoughts and experiences in life, work and study.",
+      "Software engineer at Futu. Writing about code, life, and whatever's on my mind.",
     author: "Yaotian",
     profile: "https://github.com/ytwei3",
     ogImage: "default-og.jpg",
