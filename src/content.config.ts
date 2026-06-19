@@ -34,4 +34,12 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { posts, pages };
+const moments = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/moments" }),
+  schema: z.object({
+    pubDatetime: z.date(),
+    tags: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { posts, pages, moments };

@@ -1,0 +1,58 @@
+---
+import { getCollection, render } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import config from "@/config";
+
+const moments = await getCollection("moments");
+const sorted = moments.sort(
+  (a, b) => b.data.pubDatetime.getTime() - a.data.pubDatetime.getTime()
+);
+---
+
+<Layout title={`Moments | ${config.site.title}`}>
+  <Header />
+  <Breadcrumb />
+  <main id="main-content" class="app-layout">
+    <h1 class="text-2xl font-semibold my-8">Moments</h1>
+    <ul class="space-y-6 pb-16">
+      {
+        sorted.map(async moment => {
+          const { Content } = await render(moment);
+          const date = moment.data.pubDatetime;
+          const formatted = date.toLocaleDateString("en-GB", {
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+            timeZone: config.site.timezone,
+          });
+          return (
+            <li class="border-border border-b pb-6">
+              <time
+                class="text-muted text-sm"
+                datetime={date.toISOString()}
+              >
+                {formatted}
+              </time>
+              <div class="prose prose-sm mt-2 max-w-none dark:prose-invert">
+                <Content />
+              </div>
+              {moment.data.tags.length > 0 && (
+                <div class="mt-2 flex flex-wrap gap-1">
+                  {moment.data.tags.map(tag => (
+                    <span class="text-accent text-xs">#{tag}</span>
+                  ))}
+                </div>
+              )}
+            </li>
+          );
+        })
+      }
+    </ul>
+  </main>
+  <Footer />
+</Layout>

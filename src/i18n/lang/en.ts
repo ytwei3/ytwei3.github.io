@@ -8,6 +8,7 @@ export default {
     about: "About",
     archives: "Archives",
     search: "Search",
+    moments: "Moments",
   },
   post: {
     publishedAt: "Published at",
