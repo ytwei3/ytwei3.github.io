@@ -3,10 +3,10 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://ytwei3.github.io/",
-    title: "Yaotian WEI",
+    title: "Yaotian",
     description:
-      "Yaotian WEI's personal blog, sharing my thoughts and experiences in life, work and study.",
-    author: "Yaotian WEI",
+      "Yaotian's personal blog, sharing my thoughts and experiences in life, work and study.",
+    author: "Yaotian",
     profile: "https://github.com/ytwei3",
     ogImage: "default-og.jpg",
     lang: "en",

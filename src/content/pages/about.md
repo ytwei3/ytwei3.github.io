@@ -3,7 +3,7 @@ title: About
 description: A bit about me, Yaotian (Walter) WEI.
 ---
 
-### Hi, I'm Yaotian (Walter) WEI.
+### Hi, I'm Yaotian.
 
 Software engineer at [Futu Holdings](https://www.futuholdings.com/) Web3 team. Mostly Go.
 
